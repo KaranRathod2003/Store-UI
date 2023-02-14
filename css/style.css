@@ -1,0 +1,101 @@
+body{
+    height: 4000px;
+}
+#logo {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#header {
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+.hero__heading {
+    left: 43%;
+}
+
+.width {
+    width: 36rem;
+}
+
+.slider-dots {
+    right: -6rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slider-dots button {
+    font-size: 0;
+    width: 5px;
+    height: 5px;
+    background: #D8D8D8;
+    border-radius: 50%;
+    outline: none;
+}
+
+.slider-dots li.slick-active button {
+    background: #fe7865;
+    width: 12px;
+    height: 12px;
+}
+
+.slider-dots ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.upto{
+    position: relative;
+}
+.upto:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -1rem;
+    width: 78%;
+    height: 4px; 
+    background: #fe7865;
+}
+.sub-menu{
+    max-height: 0;
+    overflow: hidden;
+}
+.menu-trigger.is-open{
+    color: fuchsia;
+}
+.menu-trigger.is-open + .sub-menu{
+    max-height: 100%;
+    overflow: visible;
+}
+.box-1{
+    position: relative;
+    height: 28rem;
+}
+.box-1 img{
+    position: absolute;
+    top: -5rem;
+}
+.box-4{
+    position: relative;
+    height: 22rem;
+    margin-top: 18rem;
+}
+.box-4 img{
+    position: absolute;
+    top: -14rem;
+    left: 15%;
+}
+.box-5{
+    position: relative;
+    height: 16rem;
+    width: 100%;
+    margin-bottom: 12rem;
+}
+.box-5 img{
+    position: absolute;
+    bottom: -8rem;
+
+}
+/* .box-6 img{
+    padding-top: 60px;
+    padding-right: 12px;
+} */
